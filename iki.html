@@ -10,10 +10,29 @@ setTimeout(function () {
 }, 100);
 </script>
 <title>Loading</title>
+<style>
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        body {
+            display: table;
+        }
+
+        .my-block {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        </style>
 </head>
 <body>
 
-<center><h1>Please wait a second.</h1></center>
+<div class="my-block">Please wait a second.</div>
 
 </body>
 </html>
